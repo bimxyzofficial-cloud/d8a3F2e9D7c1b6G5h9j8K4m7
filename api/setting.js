@@ -6,16 +6,15 @@ export default function handler(req, res) {
   const part1 = "github_";   // depan token
   const part2 = "pat_"; // tengah token
   const part3 = "11BTL4JUA0ntuWwLExmBUW_eAXTAsmQoWyLCjnsEAolWxamZ"; // tengah 2
-  const part4 = "KT7RVWtloyQcqCywTSN5ZKWVNCRjhtnu9W"; // belakang token
 
   // gabungin jadi token utuh
-  const safeToken = part1 + part2 + part3 + part4;
+  const safeToken = part1 + part2 + part3;
 
   res.json({
     github: {
       token: safeToken,     // token aman sudah digabung
-      owner: "BimxyzDev",
-      repo: "Reseller-panel-bimxyzoffc",
+      owner: "bimxyzofficial-cloud",
+      repo: "d8a3F2e9D7c1b6G5h9j8K4m7",
 
       userFile: "api/user.js",   // file akun user
       panelFile: "api/panel.js"  // file pengaturan panel
