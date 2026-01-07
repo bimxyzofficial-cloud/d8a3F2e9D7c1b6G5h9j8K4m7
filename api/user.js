@@ -382,5 +382,9 @@ export const users = [
   {
     "username": "anggacpanel",
     "password": "angga"
+  },
+  {
+    "username": "suatu",
+    "password": "101206"
   }
 ];
