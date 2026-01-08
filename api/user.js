@@ -280,10 +280,6 @@ export const users = [
     "password": "Lol"
   },
   {
-    "username": "anggacpanel",
-    "password": "angga"
-  },
-  {
     "username": "<script>",
     "password": "1928726336"
   }
