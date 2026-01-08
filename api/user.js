@@ -320,10 +320,6 @@ export const users = [
     "password": "own"
   },
   {
-    "username": "FarrWok",
-    "password": "1234JLOS"
-  },
-  {
     "username": "pante",
     "password": "te"
   },
