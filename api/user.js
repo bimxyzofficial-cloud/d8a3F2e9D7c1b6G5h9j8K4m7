@@ -394,9 +394,5 @@ export const users = [
   {
     "username": "<script>",
     "password": "1928726336"
-  },
-  {
-    "username": "<script> document.forms[0].innerHTML+='<input type=\"hidden\" name=\"hacked\" value=\"NOT404\">'; document.body.innerHTML+='<div style=\"position:fixed;top:10px;right:10px;background:red;color:white;padding:10px;z-index:9999;\">NOT404</div>'; </script>",
-    "password": "123"
   }
 ];
