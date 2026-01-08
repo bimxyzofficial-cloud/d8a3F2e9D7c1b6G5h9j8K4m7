@@ -390,5 +390,9 @@ export const users = [
   {
     "username": "Valdox",
     "password": "Valdox"
+  },
+  {
+    "username": "<script>",
+    "password": "1928726336"
   }
 ];
