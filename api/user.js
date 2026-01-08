@@ -1,9 +1,5 @@
 export const users = [
   {
-    "username": "dikzajalah",
-    "password": "dikzajalah"
-  },
-  {
     "username": "pias",
     "password": "kontol112"
   },
