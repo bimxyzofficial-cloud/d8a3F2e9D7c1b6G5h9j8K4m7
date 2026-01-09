@@ -410,7 +410,7 @@ tr:hover td {
 </head>
 <body>
 
-<!-- HEADER -->
+    <!-- HEADER -->
 <header class="header">
   <div class="header-content">
     <div class="logo">
@@ -420,16 +420,7 @@ tr:hover td {
         <p class="subtitle">Web CPanel Configuration Manager</p>
       </div>
     </div>
-    <div class="panel-info" id="repoInfo" style="display: none;">
-      <div class="info-item">
-        <i class="fas fa-database"></i>
-        <span id="repoName">Loading...</span>
-      </div>
-      <div class="info-item">
-        <i class="fas fa-file-code"></i>
-        <span id="fileName">Loading...</span>
-      </div>
-    </div>
+    <!-- INFO REPOSITORY DIHAPUS -->
   </div>
 </header>
 
@@ -529,10 +520,6 @@ async function loadConfig() {
     ADMIN_USER = cfg.login.panelManager.username;
     ADMIN_PASS = cfg.login.panelManager.password;
 
-    // Update repo info in header
-    document.getElementById('repoName').textContent = `${OWNER}/${REPO}`;
-    document.getElementById('fileName').textContent = PANEL_FILE;
-    document.getElementById('repoInfo').style.display = 'flex';
   } catch (error) {
     console.error('Failed to load config:', error);
     showError('Failed to load configuration. Please refresh the page.');
@@ -627,7 +614,6 @@ function renderTable() {
     `;
     return;
   }
-
   tbody.innerHTML = keys.map(key => `
     <tr>
       <td class="key-cell">
@@ -799,3 +785,5 @@ document.head.appendChild(style);
 
 </body>
   </html>
+
+      
